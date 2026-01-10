@@ -15,7 +15,8 @@ if st.button("پاور ورڈز کے ساتھ اپلوڈ کریں"):
         with st.spinner('ویڈیو پروسیس ہو رہی ہے...'):
             # یہاں ہم میک ڈاٹ کام کا لنک ڈالیں گے
             webhook_url =  
-            https://hook.us2.make.com/zxh2tmrxbw43d0m7r0noijxu6213mvqo
+            "https://hook.us2.make.com/zxh2tmrxbw43d0m7r0noijxu6213mvqo"
+     
             word = random.choice(power_words)
             new_name = f"{word} - {uploaded_file.name}"
             
